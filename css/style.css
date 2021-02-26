@@ -1,1 +1,62 @@
 /* COMMON */
+.small-wrapper {
+    max-width: 900px;
+    margin: auto;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* HEADER */
+
+/* Nav-Top */
+.nav-top {
+    padding: 20px 0;
+}
+
+.nav-top img {
+    height: 15px;
+}
+
+.nav-top nav {
+    text-align: right;
+}
+
+.menu {
+    list-style-type: none;
+    line-height: 15px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 12px;
+}
+
+.menu.language li {
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+
+.menu.language li:last-child {
+    border-right: none;
+    padding-right: 0;
+}
+
+.burger-menu {
+    font-size: 20px;
+    color: black;
+}
