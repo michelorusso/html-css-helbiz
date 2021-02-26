@@ -125,3 +125,43 @@ img {
     color: blue;
     font-size: 15px;
 }
+
+/* Phone */
+#phone {
+    background-image: url(../img/HelbizBanner.jpg);
+    height: 330px;
+    background-size: cover;
+}
+
+#phone img {
+    display: block;
+    margin: auto;
+    height: 480px;
+    position: relative;
+    top: 100px;
+}
+
+/* Info */
+#info h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#info [class*="col-"] {
+    text-align: center;
+    padding: 60px 0;
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    #info {
+        text-align: center;
+        padding-top: 200px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    #info {
+        text-align: center;
+        padding-top: 200px;
+    }
+}
