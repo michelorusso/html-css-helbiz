@@ -152,6 +152,12 @@ img {
     padding: 60px 0;
 }
 
+/* Choice */
+
+
+
+
+/* Media Query */
 @media all and (min-width: 768px) and (max-width: 991px) {
     #info {
         text-align: center;
