@@ -44,16 +44,16 @@ img {
     text-align: right;
 }
 
-.menu {
+.nav-top .menu {
     list-style-type: none;
     line-height: 15px;
 }
 
-.menu li {
+.nav-top .menu li {
     display: inline-block;
 }
 
-.menu li a {
+.nav-top .menu li a {
     text-decoration: none;
     color: black;
     font-size: 11px;
@@ -231,9 +231,14 @@ img {
     position: relative;
 }
 
+#social a {
+    text-decoration: none;
+    color: black;
+}
+
 .hashtag {
     background-color: white;
-    padding: 60px 90px;
+    padding: 50px 90px;
     text-align: center;
 }
 
@@ -247,6 +252,56 @@ img {
     padding: 12px;
 }
 
+/* FOOTER */
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding-top: 80px;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 300;
+    color: white;
+}
+
+footer h4 {
+    font-size: 15px;
+}
+
+footer .menu {
+    list-style-type: none;
+}
+
+footer .menu li {
+    padding: 5px 0;
+}
+
+.link a {
+    color: gray; 
+}
+
+.link {
+    padding-bottom: 30px;
+}
+
+.terms {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 25px 0;
+}
+
+.terms .fab {
+    margin: 0 7px;
+    font-size: 18px;
+}
+
+.appstore {
+    text-align: center;
+    padding: 20px 0;
+}
 /* Media Query */
 @media all and (min-width: 768px) and (max-width: 991px) {
     .mini-box{
@@ -271,6 +326,17 @@ img {
         margin: auto;
     }
 
+    footer {
+        text-align: center;
+    }
+
+    .logo-footer {
+        margin-bottom: 30px;
+    }
+
+    .terms [class*="col-"]:first-child {
+        padding: 20px 0;
+    }
 }
 
 @media all and (max-width: 767px) {
@@ -308,5 +374,21 @@ img {
     .app-city {
         max-width: 600px; 
         margin: auto;
+    }
+
+    .network {
+        font-size: 20px;
+    }
+    
+    footer {
+        text-align: center;
+    }
+    
+    .logo-footer {
+        margin-bottom: 30px;
+    }
+
+    .terms [class*="col-"]:first-child {
+        padding: 20px 0;
     }
 }
