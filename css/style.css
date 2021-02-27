@@ -160,6 +160,7 @@ img {
 }
 
 /* .Choice */
+/* vehicles */
 .vehicles {
     background-image: url(../img/ScooterHelbiz-2400.jpg);
     height: 400px;
@@ -188,6 +189,7 @@ img {
     color: white;
 }
 
+/* app/city */
 .app-city {
     color: white;
 }
@@ -218,6 +220,31 @@ img {
     height: 400px;
     background-image: url(../img/cities-1500.jpg);
     background-size: cover;
+}
+
+/* Social */
+#social {
+    background-image: url(../img/Social-Banner.jpg);
+    height: 380px;
+    background-size: cover;
+    margin: 10px 0;
+    position: relative;
+}
+
+.hashtag {
+    background-color: white;
+    padding: 60px 90px;
+    text-align: center;
+}
+
+.hashtag h2 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.network {
+    font-size: 25px;
+    padding: 12px;
 }
 
 /* Media Query */
