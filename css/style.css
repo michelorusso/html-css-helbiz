@@ -19,6 +19,15 @@ img {
     transform: translate(-50%, -50%);
 }
 
+.col_inner {
+    padding: 10px;
+}
+
+.col_content {
+    text-align: center;
+    background-color: #fafafa;
+}
+
 /* HEADER */
 
 /* Nav */
@@ -101,16 +110,6 @@ img {
     font-weight: 600;
 }
 
-.col_inner {
-    padding: 10px;
-}
-
-.col_content {
-    text-align: center;
-    background-color: #fafafa;
-    padding-top: 50px;
-}
-
 #product h3 {
     font-size: 28px;
 }
@@ -126,6 +125,9 @@ img {
     font-size: 15px;
 }
 
+#product .col_content {
+    padding-top: 50px;
+}
 /* Phone */
 #phone {
     background-image: url(../img/HelbizBanner.jpg);
@@ -157,7 +159,7 @@ img {
     margin-left: 32%;
 }
 
-/* Choice */
+/* .Choice */
 .vehicles {
     background-image: url(../img/ScooterHelbiz-2400.jpg);
     height: 400px;
@@ -165,27 +167,58 @@ img {
     margin-top: 70px;
 }
 
-.title-choice {
+.title-vehicles {
     color: white;
     text-align: center;
     font-weight: 400;
     padding: 15%;
 }
 
-.title-choice h2 {
+.title-vehicles h2 {
     font-size: 42px;
 }
 
-.title-choice p {
+.title-vehicles p {
     font-size: 18px;
     padding: 15px 0;
 }
 
-.title-choice a {
+.title-vehicles a {
     text-decoration: none;
     color: white;
 }
 
+.app-city {
+    color: white;
+}
+
+.app-city a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.app-city h3 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+.app-city p {
+    padding: 15px 0;
+}
+
+.app {
+    height: 400px;
+    background: linear-gradient(#41566a,#252f38);
+    overflow: hidden;
+}
+
+.city {
+    height: 400px;
+    background-image: url(../img/cities-1500.jpg);
+    background-size: cover;
+}
 
 /* Media Query */
 @media all and (min-width: 768px) and (max-width: 991px) {
@@ -201,9 +234,14 @@ img {
         background-position: 55% 100%;
     }
 
-    .title-choice h2 {
+    .title-vehicles h2 {
         font-size: 35px;
         padding-top: 15px;
+    }
+
+    .app-city {
+        max-width: 768px;
+        margin: auto;
     }
 
 }
@@ -240,4 +278,8 @@ img {
         background-position: 88% 100%;
     }
 
+    .app-city {
+        max-width: 600px; 
+        margin: auto;
+    }
 }
