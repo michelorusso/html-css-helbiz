@@ -129,45 +129,115 @@ img {
 /* Phone */
 #phone {
     background-image: url(../img/HelbizBanner.jpg);
-    height: 330px;
+    height: 350px;
     background-size: cover;
 }
 
 #phone img {
     display: block;
     margin: auto;
-    height: 480px;
+    height: 500px;
     position: relative;
-    top: 100px;
+    top: 120px;
 }
 
 /* Info */
 #info h3 {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 600;
 }
 
-#info [class*="col-"] {
-    text-align: center;
-    padding: 60px 0;
+#info .mini-box p {
+    font-size: 13px;
+}
+
+.mini-box {
+    width: 40%;
+    padding-top: 18%;
+    margin-left: 32%;
 }
 
 /* Choice */
+.vehicles {
+    background-image: url(../img/ScooterHelbiz-2400.jpg);
+    height: 400px;
+    background-size: cover;
+    margin-top: 70px;
+}
 
+.title-choice {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    padding: 15%;
+}
 
+.title-choice h2 {
+    font-size: 42px;
+}
+
+.title-choice p {
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+.title-choice a {
+    text-decoration: none;
+    color: white;
+}
 
 
 /* Media Query */
 @media all and (min-width: 768px) and (max-width: 991px) {
-    #info {
-        text-align: center;
-        padding-top: 200px;
+    .mini-box{
+        width: 50%;
+        padding-top: 5%;
+        margin-left: 15%;
     }
+
+    .vehicles {
+        max-width: 768px;
+        margin-top: 150px;
+        background-position: 55% 100%;
+    }
+
+    .title-choice h2 {
+        font-size: 35px;
+        padding-top: 15px;
+    }
+
 }
 
 @media all and (max-width: 767px) {
-    #info {
-        text-align: center;
-        padding-top: 200px;
+    .mini-box {
+        width: 100%;
+        text-align: left;
+        margin-left: 0;
+        padding-top: 0;
+        padding-left: 50px;
     }
+
+    #info h3 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    #info h5 {
+        padding: 15px 0;
+        font-size: 20px;
+    }
+    #info [class*="col-"]:first-child {
+        padding-top: 250px;
+    }
+
+    #info .mini-box p {
+        font-size: 18px;
+    }
+
+    .vehicles {
+        max-width: 600px;
+        margin-top: 50px;
+        background-position: 88% 100%;
+    }
+
 }
